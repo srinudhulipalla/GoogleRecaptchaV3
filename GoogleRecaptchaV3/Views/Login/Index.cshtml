@@ -58,6 +58,7 @@
     <div class="login-form">
         <form asp-controller="Login" asp-action="LoginMe" method="post" id="fmLogin">
             <div class="text-center"><img src="~/images/logo.png" /></div>
+            <br />
             <h2 class="text-center">Log in</h2>
             <div class="form-group">
                 <input type="text" class="form-control" placeholder="Username" asp-for="Username">
@@ -73,6 +74,9 @@
                         data-action="submit">
                     Log in
                 </button>
+            </div>
+            <div class="form-group">
+                <p><b>Note: </b>just login with any username and password or even with empty details</p>
             </div>
         </form>
     </div>
